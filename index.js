@@ -2,7 +2,7 @@ let a = Math.floor(Math.random() * 100);
 let b = Math.floor(Math.random() * 100);
 let c = Math.floor(Math.random() * 100);
 
-function duaxe1(){
+function animate(){
     var id = null;
     var animate = document.getElementById("animate");
     var pos = a;
@@ -17,7 +17,7 @@ function duaxe1(){
       }
     }
   }
-  function duaxe2(){
+  function animate2(){
     var id = null;
     var animate = document.getElementById("animate2");
     var pos = b;
@@ -33,7 +33,7 @@ function duaxe1(){
     }
   }
   
-  function duaxe3(){
+  function animate3(){
     var id = null;
     var animate = document.getElementById("animate3");
     var pos = c;
@@ -49,9 +49,9 @@ function duaxe1(){
     }
   }
 function myMove() {
-    duaxe1();
-    duaxe2();
-    duaxe3();
+  animate();
+  animate2();
+  animate3();
 
     if(a > b && b > c){ 
         
